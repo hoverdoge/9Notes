@@ -1,0 +1,49 @@
+%NOTE
+\documentclass{article}
+\usepackage[margin=1.0in]{geometry}
+\usepackage{titling}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[T1]{fontenc}
+
+\begin{document}
+	
+	%%% title
+	\setlength{\droptitle}{-5em}
+	\title{Unit 5 Test Corrections}
+	\date{}
+	\author{}
+	\maketitle
+	
+	%%% first section
+	\section*{5}
+	The answer is the smallest angle, because the lines on the triangles are finite, and 2 sides have to be larger combined than the last one to create a triangle. The smallest side will have the other 2 sides wrap around it, and consequently form the smallest angle at the opposite side.
+	\section*{8}
+	The answer is a pentagon because 1/72 the sum of the exterior angles is 5, and a pentagon has 5 diagonals. \\
+	What I did wrong was incorrectly finding the amount of diagonals in a pentagon. Using the $(n(n-3))/2$ formula or just drawing it out will be beneficial next time I see this type of question. \\
+	\section*{12}
+	The answer is sometimes. This is because all regular polygons with at least 5 sides will have obtuse interior angles, meaning they must have acute exterior angles. However, in irregular 5+ sided polygons some angles can be acute, and such some exterior angles can be obtuse. In addition, in a triangle, you can have obtuse exterior angles. \\
+	What I did wrong here was a stupid error because of stress. I confused exterior angles and interior angles somehow, even though it would still be sometimes! \\
+	\section*{13}
+	The answer is sometimes, because the geometric mean is higher with negative numbers and lower with positive numbers. \\
+	My error was in only evaluating negative numbers in my test case. I should diversify my test case in future questions.
+	\section*{14}
+	
+		\hskip-0.5cm\begin{tabular}{|c | c|} 
+			\hline
+			Statements & Reasons \\ [0.5ex] 
+			\hline\hline
+			$\angle K \cong PLM$  & <--  \\ 
+			\hline
+			$\angle M \cong \angle M$ & Reflexive \\
+			\hline
+			Triangle $LMP$ is similar to Triangle $LKM$ & $A$A \\
+			\hline
+			$LM/KM = PM/LM$ & CPCTC \\
+			\hline
+			$\angle LM ^ 2 = PM * KM$ & Means-Extremes Theorem \\[1ex] 
+			\hline	
+			\end{tabular}
+		
+		The way to do this is to work backwards, and realize that through the Means-Extremes theorem, you only need to get that ()$\angle LM/ \angle KM) = (\angle PM/\angle LM$). This is possible through proving the triangles' similarity.
+\end{document}
